@@ -45,16 +45,17 @@ body {
   padding-top: 1.7rem;
 }
 
-#header .wh-bx .inner-1 {
-  padding-top: 6.5rem;
-}
 
 @media (min-width: 1200px) {
   #header .wh-bx .inner-1 {
     padding-left: 50px;
   }
 }
-
+@media (min-width:768px) {
+  #header .wh-bx .inner-1 {
+  padding-top: 6.5rem;
+}
+}
 #header .wh-bx .inner-1 .tit,
 #header .wh-bx .inner-1 .w-footer {
   color: gainsboro;
